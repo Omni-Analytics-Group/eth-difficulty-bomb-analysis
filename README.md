@@ -6,10 +6,10 @@ Like other cryptocurrency networks, Ethereum relies on a Proof of work consensus
 
 Ethereum's "Difficulty Bomb" refers to a mechanism that, at a predefined block number, sharply increases the difficulty of the puzzles in the Proof of Work mining algorithm resulting in longer than normal block times (and thus less ETH rewards for miners). This mechanism increases the difficulty exponentially over time and eventually leads to what is referred to as the "Ice Age" - that is, the chain becomes so difficult to mine that it grinds to a halt and stops producing blocks (freezes). Why a difficulty bomb? It's simple. It's main intent is to exponentially increase the amount of time it takes to mine a new block on the Ethereum blockchain such that it:
 
-a. Encourages crypto miners to move away from energy-intensive PoW mining by removing the incentives.
-b. Takes away (hopefully) the ability to capture an over sized influence over the blockchain.
-c. Discourages blockchain forks.
-d. Forces node operators to upgrade to the latest software.
+1. Encourages crypto miners to move away from energy-intensive PoW mining by removing the incentives.
+2. Takes away (hopefully) the ability to capture an over sized influence over the blockchain.
+3. Discourages blockchain forks.
+4. Forces node operators to upgrade to the latest software.
         
 ## AIM OF ANALYZING THE DIFFICULTY BLOCK
 
