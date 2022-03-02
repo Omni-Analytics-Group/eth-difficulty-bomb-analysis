@@ -27,9 +27,9 @@ The article opined that the adjustment part, Part (A), is the every-block adjust
 
 As pulled from historical on chain data sources, the final dataset (difficulty.csv) consists of > 14 million rows and 3 columns. These columns are listed below:
 
-a. blocknumber
-b. timestamp
-c. difficulty. 
+1. blocknumber
+2. timestamp
+3. difficulty. 
    
 A sample of the raw data within the R-analysis environment is shown in the table below.
 
