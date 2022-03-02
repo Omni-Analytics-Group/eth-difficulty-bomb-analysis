@@ -21,7 +21,7 @@ In his article, "Adventure in Difficulty Bombing", Thomas Jay Rush (tjayrush) pe
 
 To this end, we reviewed Thomas's code to create the follow expostulation of Ethereum's next diffculty bomb.  In his aforementioned text, Thomas previously derived two parts to the difficulty calculation based on another article, "It's not that Difficult". In that article, he refers to Part (A) for adjustments and Part (B) for the bomb itself as shown in the diagram below. 
 
-![](equation.png)
+![](images/equation.png)
 
 The article opined that the adjustment part, Part (A), is the every-block adjustment that keeps blocks time hovering around 13.5 seconds, and that the bomb part, Part (B), is a step-function that doubles every 100,000 blocks. Further reading can be found here: https://medium.com/coinmonks/adventures-in-difficulty-bombing-837890476630
 
@@ -75,7 +75,7 @@ In an effort to generate a more intuitive understanding of what happens to the h
 
 ## CONCLUSION
 
-![](hashperweek.png)
+![](images/hashperweek.png)
 
 A lot has been discussed in literature about the difficulty bomb, with the articles by Thomas Jay Rush having solid formulation of the effects and timing of the difficulty bomb. After an exhaustive code review iteration, bottom up re-coding of the graphs, we can confidently state the bomb is predicated to go off by June considering the rate of difficulty sensitivity experienced now. In the final graph above, we see that block times have consistently been below 14s per block since 2019. Our expectation is that this will be consistent until the bomb goes off for which we'd see a rather swift deterioration of block times over the subsequent weeks until either a commitment to reset the bomb is made or the full migration to PoS is implemented and the difficulty mining the original Ethereum v1 shard is permanent.
 
