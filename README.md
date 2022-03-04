@@ -55,7 +55,7 @@ The third chart in the code is the difficulty delta (that is, the increase or de
 
 ![](images/unnamed-chunk-5-1.png)
 
-The chart above examines the change in difficulty between each successive block, where the growing wild swings in the difficulty delta is a function of the larger hash rate.The difficulty seems to obviously boomerang towards the tail end of the block number with block numbers prior to that showing steady patterns. We see at a particular block number, the difficulty skyrocketed.
+The chart above examines the change in difficulty between each successive block, where the growing wild swings in the difficulty delta is a function of the larger hash rate. The difficulty seems to obviously boomerang towards the tail end of the block number with block numbers prior to that showing steady patterns. We see at a particular block number, the difficulty skyrocketed.
 
 The fourth chart in the code indicates the difficulty when aggregated across 100,000 block periods. The views are separated into groups based on which hard fork they were part of (Byzantium, Constantinople, and so forth).
 
@@ -77,5 +77,5 @@ In an effort to generate a more intuitive understanding of what happens to the h
 
 ![](images/hashperweek.png)
 
-A lot has been discussed in literature about the difficulty bomb, with the articles by Thomas Jay Rush having solid formulation of the effects and timing of the difficulty bomb. After an exhaustive code review iteration, bottom up re-coding of the graphs, we can confidently state the bomb is predicated to go off by June considering the rate of difficulty sensitivity experienced now. In the final graph above, we see that block times have consistently been below 14s per block since 2019. Our expectation is that this will be consistent until the bomb goes off for which we'd see a rather swift deterioration of block times over the subsequent weeks until either a commitment to reset the bomb is made or the full migration to PoS is implemented and the difficulty mining the original Ethereum v1 shard is permanent.
+A lot has been discussed in literature about the difficulty bomb, with the articles by Thomas Jay Rush having solid formulation of the effects and timing of the difficulty bomb. After an exhaustive code review iteration, bottom up re-coding of the graphs, we can confidently state the bomb is predicated to go off in June considering the rate of difficulty sensitivity experienced now. In the final graph above, we see that block times have consistently been below 14s per block since 2019. Our expectation is that this will be consistent until the bomb goes off for which we'd see a rather swift deterioration of block times over the subsequent weeks until either a commitment to reset the bomb is made or the full migration to PoS, which has no concept of a difficulty bomb, is implemented.
 
